@@ -1,0 +1,2 @@
+# Bashscript
+Örnek Kodlar
