@@ -1,0 +1,20 @@
+#! /bin/bash
+
+echo -e "Bir ders seçiniz:\c"
+
+read ders
+
+case $ders in
+"Matematik" )
+echo "$ders hocası ders vermek için uygundur.";;
+"Turkce" )
+echo "$ders hocası 13.00-15.00 saatleri arasınd ders vermektedir.";;
+"Fzik" )
+echo "$ders hocası tüm hafta doludur.";;
+"Kimya" )
+echo "$ders hocası salı günü ders vermek için uygundur.";;
+"Biyoloji" )
+echo "$ders hocası  carsamba günü ders vermek için uygundur.";;
+* )
+echo "$ders dersi sistemimizde bulunmamaktadır.Matematik,Turkce,Fizik,Biyoloji,Kimya derslerinden secebilirsiniz..";;
+esac
